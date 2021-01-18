@@ -1,0 +1,160 @@
+﻿2021-01-18 09:49:13,119 [9] INFO  BusinessObjects.Supports.AppConst - SetupAppConst.:
+2021-01-18 09:49:13,125 [9] INFO  BusinessObjects.Supports.AppConst - ThreadUpdateTxDate.:mv_TxDateTicks=0
+2021-01-18 09:49:18,935 [9] WARN  BusinessObjects.Supports.AppConst - ThreadUpdateTxDate.:mv_TxDate=1/1/0001 12:00:00 AM
+2021-01-18 09:49:18,935 [9] WARN  BusinessObjects.Supports.AppConst - ThreadUpdateTxDate.:v_newTxDate=1/18/2021 12:00:00 AM
+2021-01-18 09:49:18,941 [9] INFO  BusinessObjects.Supports.AppConst - SetupAppConst Done...!!!
+2021-01-18 09:49:18,946 [11] INFO  BusinessObjects.Supports.AppConst - Inventory_ReloadExchangeData.:MarketInfor.:18/01/2021
+2021-01-18 09:49:18,977 [11] INFO  BusinessObjects.Supports.AppConst - ALL_MarketIDArray.:ALL_MarketIDCPArray.:, [|10|30|02|HNX30|04|HNXMan|HNXFin|SML|MID|ALL|XALL|100|HNXCON|ETF|HNXMSCap|HNX30TRI|HNXLCap|VN30|X50|SI]
+2021-01-18 09:49:18,977 [11] INFO  BusinessObjects.Supports.AppConst - Inventory_ReloadExchangeData.:MarketInfor.:v_markets=10|30|02|HNX30|04|HNXMan|HNXFin|SML|MID|ALL|XALL|100|HNXCON|ETF|HNXMSCap|HNX30TRI|HNXLCap|VN30|X50|SI|10_P|10_O|10_A
+2021-01-18 09:49:24,476 [17] INFO  BusinessObjects.Supports.CommonUtil - GetCSIDXGroup.:10.42.0.0, [10], [Not Found Any]
+2021-01-18 09:49:24,476 [17] INFO  BusinessObjects.Supports.CommonUtil - GetCSIDXGroup.:10.42.0.0, [02], [Not Found Any]
+2021-01-18 09:49:24,476 [17] INFO  BusinessObjects.Supports.CommonUtil - GetCSIDXGroup.:10.42.0.0, [04], [Not Found Any]
+2021-01-18 09:49:44,473 [17] INFO  BusinessObjects.Supports.CommonUtil - GetCSIDXGroup.:10.42.3.0, [10], [Not Found Any]
+2021-01-18 09:49:44,473 [17] INFO  BusinessObjects.Supports.CommonUtil - GetCSIDXGroup.:10.42.3.0, [02], [Not Found Any]
+2021-01-18 09:49:44,474 [17] INFO  BusinessObjects.Supports.CommonUtil - GetCSIDXGroup.:10.42.3.0, [04], [Not Found Any]
+2021-01-18 09:49:47,666 [16] INFO  BusinessObjects.Supports.CommonUtil - GetCSIDXGroup.:10.42.0.0, [10], [Not Found Any]
+2021-01-18 09:49:47,666 [16] INFO  BusinessObjects.Supports.CommonUtil - GetCSIDXGroup.:10.42.0.0, [02], [Not Found Any]
+2021-01-18 09:49:47,666 [16] INFO  BusinessObjects.Supports.CommonUtil - GetCSIDXGroup.:10.42.0.0, [04], [Not Found Any]
+2021-01-18 09:50:15,479 [11] INFO  BusinessObjects.Supports.AppConst - Inventory_ReloadAllMarketInfor.:getReposMarketInfor.GetAllMarketID.:, [10], [Count], [0]
+2021-01-18 09:50:15,479 [11] INFO  BusinessObjects.Supports.AppConst - Inventory_ReloadAllMarketInfor.:GetAllMarketID.:, [10], [Chart Count], [0]
+2021-01-18 09:50:17,865 [11] INFO  BusinessObjects.Supports.AppConst - Inventory_ReloadAllMarketInfor.:getReposMarketInfor.GetAllMarketID.:, [30], [Count], [0]
+2021-01-18 09:50:17,865 [11] INFO  BusinessObjects.Supports.AppConst - Inventory_ReloadAllMarketInfor.:GetAllMarketID.:, [30], [Chart Count], [0]
+2021-01-18 09:50:20,291 [11] INFO  BusinessObjects.Supports.AppConst - Inventory_ReloadAllMarketInfor.:getReposMarketInfor.GetAllMarketID.:, [02], [Count], [0]
+2021-01-18 09:50:20,291 [11] INFO  BusinessObjects.Supports.AppConst - Inventory_ReloadAllMarketInfor.:GetAllMarketID.:, [02], [Chart Count], [0]
+2021-01-18 09:50:22,680 [11] INFO  BusinessObjects.Supports.AppConst - Inventory_ReloadAllMarketInfor.:getReposMarketInfor.GetAllMarketID.:, [HNX30], [Count], [0]
+2021-01-18 09:50:22,680 [11] INFO  BusinessObjects.Supports.AppConst - Inventory_ReloadAllMarketInfor.:GetAllMarketID.:, [HNX30], [Chart Count], [0]
+2021-01-18 09:50:25,153 [11] INFO  BusinessObjects.Supports.AppConst - Inventory_ReloadAllMarketInfor.:getReposMarketInfor.GetAllMarketID.:, [04], [Count], [0]
+2021-01-18 09:50:25,153 [11] INFO  BusinessObjects.Supports.AppConst - Inventory_ReloadAllMarketInfor.:GetAllMarketID.:, [04], [Chart Count], [0]
+2021-01-18 09:50:27,537 [11] INFO  BusinessObjects.Supports.AppConst - Inventory_ReloadAllMarketInfor.:getReposMarketInfor.GetAllMarketID.:, [HNXMan], [Count], [0]
+2021-01-18 09:50:27,537 [11] INFO  BusinessObjects.Supports.AppConst - Inventory_ReloadAllMarketInfor.:GetAllMarketID.:, [HNXMan], [Chart Count], [0]
+2021-01-18 09:50:29,717 [11] INFO  BusinessObjects.Supports.AppConst - Inventory_ReloadAllMarketInfor.:getReposMarketInfor.GetAllMarketID.:, [HNXFin], [Count], [0]
+2021-01-18 09:50:29,717 [11] INFO  BusinessObjects.Supports.AppConst - Inventory_ReloadAllMarketInfor.:GetAllMarketID.:, [HNXFin], [Chart Count], [0]
+2021-01-18 09:50:32,088 [11] INFO  BusinessObjects.Supports.AppConst - Inventory_ReloadAllMarketInfor.:getReposMarketInfor.GetAllMarketID.:, [SML], [Count], [0]
+2021-01-18 09:50:32,088 [11] INFO  BusinessObjects.Supports.AppConst - Inventory_ReloadAllMarketInfor.:GetAllMarketID.:, [SML], [Chart Count], [0]
+2021-01-18 09:50:34,257 [11] INFO  BusinessObjects.Supports.AppConst - Inventory_ReloadAllMarketInfor.:getReposMarketInfor.GetAllMarketID.:, [MID], [Count], [0]
+2021-01-18 09:50:34,257 [11] INFO  BusinessObjects.Supports.AppConst - Inventory_ReloadAllMarketInfor.:GetAllMarketID.:, [MID], [Chart Count], [0]
+2021-01-18 09:50:36,648 [11] INFO  BusinessObjects.Supports.AppConst - Inventory_ReloadAllMarketInfor.:getReposMarketInfor.GetAllMarketID.:, [ALL], [Count], [0]
+2021-01-18 09:50:36,648 [11] INFO  BusinessObjects.Supports.AppConst - Inventory_ReloadAllMarketInfor.:GetAllMarketID.:, [ALL], [Chart Count], [0]
+2021-01-18 09:50:38,812 [11] INFO  BusinessObjects.Supports.AppConst - Inventory_ReloadAllMarketInfor.:getReposMarketInfor.GetAllMarketID.:, [XALL], [Count], [0]
+2021-01-18 09:50:38,812 [11] INFO  BusinessObjects.Supports.AppConst - Inventory_ReloadAllMarketInfor.:GetAllMarketID.:, [XALL], [Chart Count], [0]
+2021-01-18 09:50:41,185 [11] INFO  BusinessObjects.Supports.AppConst - Inventory_ReloadAllMarketInfor.:getReposMarketInfor.GetAllMarketID.:, [100], [Count], [0]
+2021-01-18 09:50:41,185 [11] INFO  BusinessObjects.Supports.AppConst - Inventory_ReloadAllMarketInfor.:GetAllMarketID.:, [100], [Chart Count], [0]
+2021-01-18 09:50:43,561 [11] INFO  BusinessObjects.Supports.AppConst - Inventory_ReloadAllMarketInfor.:getReposMarketInfor.GetAllMarketID.:, [HNXCON], [Count], [0]
+2021-01-18 09:50:43,561 [11] INFO  BusinessObjects.Supports.AppConst - Inventory_ReloadAllMarketInfor.:GetAllMarketID.:, [HNXCON], [Chart Count], [0]
+2021-01-18 09:50:45,935 [11] INFO  BusinessObjects.Supports.AppConst - Inventory_ReloadAllMarketInfor.:getReposMarketInfor.GetAllMarketID.:, [ETF], [Count], [0]
+2021-01-18 09:50:45,935 [11] INFO  BusinessObjects.Supports.AppConst - Inventory_ReloadAllMarketInfor.:GetAllMarketID.:, [ETF], [Chart Count], [0]
+2021-01-18 09:50:48,304 [11] INFO  BusinessObjects.Supports.AppConst - Inventory_ReloadAllMarketInfor.:getReposMarketInfor.GetAllMarketID.:, [HNXMSCap], [Count], [0]
+2021-01-18 09:50:48,304 [11] INFO  BusinessObjects.Supports.AppConst - Inventory_ReloadAllMarketInfor.:GetAllMarketID.:, [HNXMSCap], [Chart Count], [0]
+2021-01-18 09:50:50,488 [11] INFO  BusinessObjects.Supports.AppConst - Inventory_ReloadAllMarketInfor.:getReposMarketInfor.GetAllMarketID.:, [HNX30TRI], [Count], [0]
+2021-01-18 09:50:50,488 [11] INFO  BusinessObjects.Supports.AppConst - Inventory_ReloadAllMarketInfor.:GetAllMarketID.:, [HNX30TRI], [Chart Count], [0]
+2021-01-18 09:50:52,875 [11] INFO  BusinessObjects.Supports.AppConst - Inventory_ReloadAllMarketInfor.:getReposMarketInfor.GetAllMarketID.:, [HNXLCap], [Count], [0]
+2021-01-18 09:50:52,875 [11] INFO  BusinessObjects.Supports.AppConst - Inventory_ReloadAllMarketInfor.:GetAllMarketID.:, [HNXLCap], [Chart Count], [0]
+2021-01-18 09:50:55,070 [11] INFO  BusinessObjects.Supports.AppConst - Inventory_ReloadAllMarketInfor.:getReposMarketInfor.GetAllMarketID.:, [VN30], [Count], [0]
+2021-01-18 09:50:55,070 [11] INFO  BusinessObjects.Supports.AppConst - Inventory_ReloadAllMarketInfor.:GetAllMarketID.:, [VN30], [Chart Count], [0]
+2021-01-18 09:50:57,432 [11] INFO  BusinessObjects.Supports.AppConst - Inventory_ReloadAllMarketInfor.:getReposMarketInfor.GetAllMarketID.:, [X50], [Count], [0]
+2021-01-18 09:50:57,432 [11] INFO  BusinessObjects.Supports.AppConst - Inventory_ReloadAllMarketInfor.:GetAllMarketID.:, [X50], [Chart Count], [0]
+2021-01-18 09:50:59,605 [11] INFO  BusinessObjects.Supports.AppConst - Inventory_ReloadAllMarketInfor.:getReposMarketInfor.GetAllMarketID.:, [SI], [Count], [0]
+2021-01-18 09:50:59,605 [11] INFO  BusinessObjects.Supports.AppConst - Inventory_ReloadAllMarketInfor.:GetAllMarketID.:, [SI], [Chart Count], [0]
+2021-01-18 09:50:59,605 [11] WARN  BusinessObjects.Supports.AppConst - Inventory_ReloadExchangeDataThread=>Inventory_ReloadMarketInfor.:Time=100663
+2021-01-18 09:50:59,610 [11] INFO  BusinessObjects.Supports.AppConst - Inventory_ReloadStockInfor.:StockInfor.:Begin
+2021-01-18 09:50:59,610 [11] INFO  BusinessObjects.Supports.AppConst - Inventory_ReloadStockInfor.:Load all Items to getStyledStocks.:, [0]
+2021-01-18 09:51:01,046 [11] INFO  BusinessObjects.Supports.AppConst - Inventory_ReloadStockInfor.:Load all Items to Items getStyledStocks.:, [555]
+2021-01-18 09:51:01,046 [11] WARN  BusinessObjects.Supports.AppConst - Inventory_ReloadExchangeDataThread=>Inventory_ReloadStockInfor.:Time=1441
+2021-01-18 09:51:01,052 [11] INFO  BusinessObjects.Supports.AppConst - Inventory_ReloadTransLog.:Begin
+2021-01-18 09:51:05,986 [11] INFO  BusinessObjects.Supports.AppConst - Inventory_ReloadTransLog.:Begin.:Length=0
+2021-01-18 09:51:06,005 [11] INFO  BusinessObjects.Supports.AppConst - Inventory_ReloadTransLog.:End=>.:, [0], [mv_protoTransLog], [0]
+2021-01-18 09:51:06,005 [11] WARN  BusinessObjects.Supports.AppConst - Inventory_ReloadExchangeDataThread=>Inventory_ReloadTransLog.:Time=4959
+2021-01-18 09:51:06,006 [11] INFO  BusinessObjects.Supports.AppConst - Inventory_ReloadCSIDXInfor.:Begin.:18/01/2021
+2021-01-18 09:51:06,028 [11] ERROR BusinessObjects.Supports.AppConst - Inventory_ReloadCSIDXInfor.:
+NHibernate.Exceptions.GenericADOException: could not execute query
+[ SELECT this_.Id as Id6_0_, this_.IndexCode as IndexCode6_0_, this_.StockNo as StockNo6_0_, this_.Symbol as Symbol6_0_, this_.TotalQtty as TotalQtty6_0_, this_.Weighted as Weighted6_0_, this_.AddDate as AddDate6_0_, this_.IndexId as IndexId6_0_, this_.FloorCode as FloorCode6_0_, this_.TradingDate as Trading10_6_0_ FROM CSIDXInfor this_ WHERE this_.TradingDate = :p0 ]
+  Name:cp0 - Value:18/01/2021
+[SQL: SELECT this_.Id as Id6_0_, this_.IndexCode as IndexCode6_0_, this_.StockNo as StockNo6_0_, this_.Symbol as Symbol6_0_, this_.TotalQtty as TotalQtty6_0_, this_.Weighted as Weighted6_0_, this_.AddDate as AddDate6_0_, this_.IndexId as IndexId6_0_, this_.FloorCode as FloorCode6_0_, this_.TradingDate as Trading10_6_0_ FROM CSIDXInfor this_ WHERE this_.TradingDate = :p0] ---> System.Data.OracleClient.OracleException: ORA-00904: "THIS_"."TRADINGDATE": invalid identifier
+
+   at System.Data.OracleClient.OracleConnection.CheckError(OciErrorHandle errorHandle, Int32 rc)
+   at System.Data.OracleClient.OracleCommand.Execute(OciStatementHandle statementHandle, CommandBehavior behavior, Boolean needRowid, OciRowidDescriptor& rowidDescriptor, ArrayList& resultParameterOrdinals)
+   at System.Data.OracleClient.OracleCommand.Execute(OciStatementHandle statementHandle, CommandBehavior behavior, ArrayList& resultParameterOrdinals)
+   at System.Data.OracleClient.OracleCommand.ExecuteReader(CommandBehavior behavior)
+   at NHibernate.AdoNet.AbstractBatcher.ExecuteReader(IDbCommand cmd)
+   at NHibernate.Loader.Loader.GetResultSet(IDbCommand st, Boolean autoDiscoverTypes, Boolean callable, RowSelection selection, ISessionImplementor session)
+   at NHibernate.Loader.Loader.DoQuery(ISessionImplementor session, QueryParameters queryParameters, Boolean returnProxies)
+   at NHibernate.Loader.Loader.DoQueryAndInitializeNonLazyCollections(ISessionImplementor session, QueryParameters queryParameters, Boolean returnProxies)
+   at NHibernate.Loader.Loader.DoList(ISessionImplementor session, QueryParameters queryParameters)
+   --- End of inner exception stack trace ---
+   at NHibernate.Loader.Loader.DoList(ISessionImplementor session, QueryParameters queryParameters)
+   at NHibernate.Loader.Loader.ListIgnoreQueryCache(ISessionImplementor session, QueryParameters queryParameters)
+   at NHibernate.Impl.SessionImpl.List(CriteriaImpl criteria, IList results)
+   at NHibernate.Impl.CriteriaImpl.List(IList results)
+   at NHibernate.Impl.CriteriaImpl.List[T]()
+   at WebOnlineTrading.NHibernate.Repositories.CSIDXInfoRepository.GetAll()
+   at BusinessObjects.Supports.AppConst.Inventory_ReloadCSIDXInfor()
+2021-01-18 09:51:06,036 [11] WARN  BusinessObjects.Supports.AppConst - Inventory_ReloadExchangeDataThread=>Inventory_ReloadCSIDXInfor.:Time=31
+2021-01-18 09:51:06,039 [11] INFO  BusinessObjects.Supports.AppConst - Inventory_ReloadPT.:PutThroughInfo.:18/01/2021
+2021-01-18 09:51:06,041 [11] INFO  BusinessObjects.Supports.AppConst - Inventory_ReloadPT.:PutThroughInfo.:Done.:0
+2021-01-18 09:51:06,045 [11] ERROR BusinessObjects.Supports.AppConst - Inventory_ReloadPT
+NHibernate.Exceptions.GenericADOException: could not execute query
+[ SELECT this_.Id as Id4_0_, this_.Symbol as Symbol4_0_, this_.ConfirmNo as ConfirmNo4_0_, this_.MatchVol as MatchVol4_0_, this_.Price as Price4_0_, this_.MarketId as MarketId4_0_, this_.Time as Time4_0_, this_.IsActive as IsActive4_0_, this_.tradingdate as tradingd9_4_0_ FROM PTMatch this_ WHERE this_.tradingdate = :p0 ]
+  Name:cp0 - Value:18/01/2021
+[SQL: SELECT this_.Id as Id4_0_, this_.Symbol as Symbol4_0_, this_.ConfirmNo as ConfirmNo4_0_, this_.MatchVol as MatchVol4_0_, this_.Price as Price4_0_, this_.MarketId as MarketId4_0_, this_.Time as Time4_0_, this_.IsActive as IsActive4_0_, this_.tradingdate as tradingd9_4_0_ FROM PTMatch this_ WHERE this_.tradingdate = :p0] ---> System.Data.OracleClient.OracleException: ORA-00904: "THIS_"."TIME": invalid identifier
+
+   at System.Data.OracleClient.OracleConnection.CheckError(OciErrorHandle errorHandle, Int32 rc)
+   at System.Data.OracleClient.OracleCommand.Execute(OciStatementHandle statementHandle, CommandBehavior behavior, Boolean needRowid, OciRowidDescriptor& rowidDescriptor, ArrayList& resultParameterOrdinals)
+   at System.Data.OracleClient.OracleCommand.Execute(OciStatementHandle statementHandle, CommandBehavior behavior, ArrayList& resultParameterOrdinals)
+   at System.Data.OracleClient.OracleCommand.ExecuteReader(CommandBehavior behavior)
+   at NHibernate.AdoNet.AbstractBatcher.ExecuteReader(IDbCommand cmd)
+   at NHibernate.Loader.Loader.GetResultSet(IDbCommand st, Boolean autoDiscoverTypes, Boolean callable, RowSelection selection, ISessionImplementor session)
+   at NHibernate.Loader.Loader.DoQuery(ISessionImplementor session, QueryParameters queryParameters, Boolean returnProxies)
+   at NHibernate.Loader.Loader.DoQueryAndInitializeNonLazyCollections(ISessionImplementor session, QueryParameters queryParameters, Boolean returnProxies)
+   at NHibernate.Loader.Loader.DoList(ISessionImplementor session, QueryParameters queryParameters)
+   --- End of inner exception stack trace ---
+   at NHibernate.Loader.Loader.DoList(ISessionImplementor session, QueryParameters queryParameters)
+   at NHibernate.Loader.Loader.ListIgnoreQueryCache(ISessionImplementor session, QueryParameters queryParameters)
+   at NHibernate.Impl.SessionImpl.List(CriteriaImpl criteria, IList results)
+   at NHibernate.Impl.CriteriaImpl.List(IList results)
+   at NHibernate.Impl.CriteriaImpl.List[T]()
+   at BusinessObjects.Supports.AppConst.Inventory_ReloadPT()
+2021-01-18 09:51:06,045 [11] WARN  BusinessObjects.Supports.AppConst - Inventory_ReloadExchangeDataThread=>Inventory_ReloadCSIDXInfor.:Time=9
+2021-01-18 09:51:06,045 [11] INFO  BusinessObjects.Supports.AppConst - Inventory_ReloadExchangeDataThread.:Done.:getStyledStocks:555
+2021-01-18 09:51:06,049 [11] INFO  BusinessObjects.Supports.ExchangeDataListener - startPushListen.:Start ...
+2021-01-18 09:51:06,052 [11] INFO  BusinessObjects.Supports.ExchangeDataListener - startPushListen.:.:, [activemq:tcp://mserver:61616], [online.listener], [False], [price-board-798c45d756-qm92w_PriceBoard_637465602660527375], [], [], [Init Done!]
+2021-01-18 09:51:06,052 [11] INFO  BusinessObjects.Supports.AppConst - startPushListen.:Done.:
+2021-01-18 09:51:06,053 [12] WARN  BusinessObjects.Supports.ExchangeDataListener - Start processMarketInforThread
+2021-01-18 09:51:17,714 [28] INFO  BusinessObjects.Supports.CommonUtil - GetCSIDXGroup.:10.42.1.0, [10], [Not Found Any]
+2021-01-18 09:51:17,714 [28] INFO  BusinessObjects.Supports.CommonUtil - GetCSIDXGroup.:10.42.1.0, [02], [Not Found Any]
+2021-01-18 09:51:17,714 [28] INFO  BusinessObjects.Supports.CommonUtil - GetCSIDXGroup.:10.42.1.0, [04], [Not Found Any]
+2021-01-18 09:51:19,311 [19] INFO  BusinessObjects.Supports.CommonUtil - GetCSIDXGroup.:10.42.1.0, [10], [Not Found Any]
+2021-01-18 09:51:19,311 [19] INFO  BusinessObjects.Supports.CommonUtil - GetCSIDXGroup.:10.42.1.0, [02], [Not Found Any]
+2021-01-18 09:51:19,311 [19] INFO  BusinessObjects.Supports.CommonUtil - GetCSIDXGroup.:10.42.1.0, [04], [Not Found Any]
+2021-01-18 09:51:20,359 [35] INFO  BusinessObjects.Supports.CommonUtil - GetCSIDXGroup.:10.42.3.0, [10], [Not Found Any]
+2021-01-18 09:51:20,359 [35] INFO  BusinessObjects.Supports.CommonUtil - GetCSIDXGroup.:10.42.3.0, [02], [Not Found Any]
+2021-01-18 09:51:20,359 [35] INFO  BusinessObjects.Supports.CommonUtil - GetCSIDXGroup.:10.42.3.0, [04], [Not Found Any]
+2021-01-18 09:51:21,401 [35] INFO  BusinessObjects.Supports.CommonUtil - GetCSIDXGroup.:10.42.1.0, [10], [Not Found Any]
+2021-01-18 09:51:21,401 [35] INFO  BusinessObjects.Supports.CommonUtil - GetCSIDXGroup.:10.42.1.0, [02], [Not Found Any]
+2021-01-18 09:51:21,401 [35] INFO  BusinessObjects.Supports.CommonUtil - GetCSIDXGroup.:10.42.1.0, [04], [Not Found Any]
+2021-01-18 09:52:11,508 [33] INFO  BusinessObjects.Supports.CommonUtil - GetCSIDXGroup.:10.42.3.0, [10], [Not Found Any]
+2021-01-18 09:52:11,508 [33] INFO  BusinessObjects.Supports.CommonUtil - GetCSIDXGroup.:10.42.3.0, [02], [Not Found Any]
+2021-01-18 09:52:11,508 [33] INFO  BusinessObjects.Supports.CommonUtil - GetCSIDXGroup.:10.42.3.0, [04], [Not Found Any]
+2021-01-18 09:52:13,518 [11] INFO  BusinessObjects.Supports.CommonUtil - GetCSIDXGroup.:10.42.1.0, [10], [Not Found Any]
+2021-01-18 09:52:13,519 [11] INFO  BusinessObjects.Supports.CommonUtil - GetCSIDXGroup.:10.42.1.0, [02], [Not Found Any]
+2021-01-18 09:52:13,519 [11] INFO  BusinessObjects.Supports.CommonUtil - GetCSIDXGroup.:10.42.1.0, [04], [Not Found Any]
+2021-01-18 09:52:14,296 [11] INFO  BusinessObjects.Supports.CommonUtil - GetCSIDXGroup.:10.42.1.0, [10], [Not Found Any]
+2021-01-18 09:52:14,296 [11] INFO  BusinessObjects.Supports.CommonUtil - GetCSIDXGroup.:10.42.1.0, [02], [Not Found Any]
+2021-01-18 09:52:14,296 [11] INFO  BusinessObjects.Supports.CommonUtil - GetCSIDXGroup.:10.42.1.0, [04], [Not Found Any]
+2021-01-18 09:52:27,338 [15] INFO  BusinessObjects.Supports.CommonUtil - GetCSIDXGroup.:10.42.3.0, [10], [Not Found Any]
+2021-01-18 09:52:27,339 [15] INFO  BusinessObjects.Supports.CommonUtil - GetCSIDXGroup.:10.42.3.0, [02], [Not Found Any]
+2021-01-18 09:52:27,339 [15] INFO  BusinessObjects.Supports.CommonUtil - GetCSIDXGroup.:10.42.3.0, [04], [Not Found Any]
+2021-01-18 09:52:56,540 [56] INFO  BusinessObjects.Supports.CommonUtil - GetCSIDXGroup.:10.42.3.0, [10], [Not Found Any]
+2021-01-18 09:52:56,540 [56] INFO  BusinessObjects.Supports.CommonUtil - GetCSIDXGroup.:10.42.3.0, [02], [Not Found Any]
+2021-01-18 09:52:56,540 [56] INFO  BusinessObjects.Supports.CommonUtil - GetCSIDXGroup.:10.42.3.0, [04], [Not Found Any]
+2021-01-18 09:53:07,297 [11] INFO  BusinessObjects.Supports.CommonUtil - GetCSIDXGroup.:10.42.0.0, [10], [Not Found Any]
+2021-01-18 09:53:07,297 [11] INFO  BusinessObjects.Supports.CommonUtil - GetCSIDXGroup.:10.42.0.0, [02], [Not Found Any]
+2021-01-18 09:53:07,297 [11] INFO  BusinessObjects.Supports.CommonUtil - GetCSIDXGroup.:10.42.0.0, [04], [Not Found Any]
+2021-01-18 09:53:21,073 [22] INFO  BusinessObjects.Supports.CommonUtil - GetCSIDXGroup.:10.42.0.0, [10], [Not Found Any]
+2021-01-18 09:53:21,074 [22] INFO  BusinessObjects.Supports.CommonUtil - GetCSIDXGroup.:10.42.0.0, [02], [Not Found Any]
+2021-01-18 09:53:21,074 [22] INFO  BusinessObjects.Supports.CommonUtil - GetCSIDXGroup.:10.42.0.0, [04], [Not Found Any]
+2021-01-18 09:53:52,612 [22] INFO  BusinessObjects.Supports.CommonUtil - GetCSIDXGroup.:10.42.3.0, [10], [Not Found Any]
+2021-01-18 09:53:52,612 [22] INFO  BusinessObjects.Supports.CommonUtil - GetCSIDXGroup.:10.42.3.0, [02], [Not Found Any]
+2021-01-18 09:53:52,612 [22] INFO  BusinessObjects.Supports.CommonUtil - GetCSIDXGroup.:10.42.3.0, [04], [Not Found Any]
+2021-01-18 09:55:09,496 [42] INFO  BusinessObjects.Supports.CommonUtil - GetCSIDXGroup.:10.42.3.0, [10], [Not Found Any]
+2021-01-18 09:55:09,496 [42] INFO  BusinessObjects.Supports.CommonUtil - GetCSIDXGroup.:10.42.3.0, [02], [Not Found Any]
+2021-01-18 09:55:09,496 [42] INFO  BusinessObjects.Supports.CommonUtil - GetCSIDXGroup.:10.42.3.0, [04], [Not Found Any]

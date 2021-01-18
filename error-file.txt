@@ -1,0 +1,73 @@
+﻿2021-01-18 09:51:06,012 [11] ERROR NHibernate.AdoNet.AbstractBatcher - Could not execute query: SELECT this_.Id as Id6_0_, this_.IndexCode as IndexCode6_0_, this_.StockNo as StockNo6_0_, this_.Symbol as Symbol6_0_, this_.TotalQtty as TotalQtty6_0_, this_.Weighted as Weighted6_0_, this_.AddDate as AddDate6_0_, this_.IndexId as IndexId6_0_, this_.FloorCode as FloorCode6_0_, this_.TradingDate as Trading10_6_0_ FROM CSIDXInfor this_ WHERE this_.TradingDate = :p0
+System.Data.OracleClient.OracleException (0x80131938): ORA-00904: "THIS_"."TRADINGDATE": invalid identifier
+
+   at System.Data.OracleClient.OracleConnection.CheckError(OciErrorHandle errorHandle, Int32 rc)
+   at System.Data.OracleClient.OracleCommand.Execute(OciStatementHandle statementHandle, CommandBehavior behavior, Boolean needRowid, OciRowidDescriptor& rowidDescriptor, ArrayList& resultParameterOrdinals)
+   at System.Data.OracleClient.OracleCommand.Execute(OciStatementHandle statementHandle, CommandBehavior behavior, ArrayList& resultParameterOrdinals)
+   at System.Data.OracleClient.OracleCommand.ExecuteReader(CommandBehavior behavior)
+   at NHibernate.AdoNet.AbstractBatcher.ExecuteReader(IDbCommand cmd)
+2021-01-18 09:51:06,022 [11] ERROR NHibernate.Util.ADOExceptionReporter - ORA-00904: "THIS_"."TRADINGDATE": invalid identifier
+
+2021-01-18 09:51:06,026 [11] ERROR NHibernate.Util.ADOExceptionReporter - ORA-00904: "THIS_"."TRADINGDATE": invalid identifier
+
+2021-01-18 09:51:06,027 [11] ERROR NHibernate.Util.ADOExceptionReporter - ORA-00904: "THIS_"."TRADINGDATE": invalid identifier
+
+2021-01-18 09:51:06,028 [11] ERROR BusinessObjects.Supports.AppConst - Inventory_ReloadCSIDXInfor.:
+NHibernate.Exceptions.GenericADOException: could not execute query
+[ SELECT this_.Id as Id6_0_, this_.IndexCode as IndexCode6_0_, this_.StockNo as StockNo6_0_, this_.Symbol as Symbol6_0_, this_.TotalQtty as TotalQtty6_0_, this_.Weighted as Weighted6_0_, this_.AddDate as AddDate6_0_, this_.IndexId as IndexId6_0_, this_.FloorCode as FloorCode6_0_, this_.TradingDate as Trading10_6_0_ FROM CSIDXInfor this_ WHERE this_.TradingDate = :p0 ]
+  Name:cp0 - Value:18/01/2021
+[SQL: SELECT this_.Id as Id6_0_, this_.IndexCode as IndexCode6_0_, this_.StockNo as StockNo6_0_, this_.Symbol as Symbol6_0_, this_.TotalQtty as TotalQtty6_0_, this_.Weighted as Weighted6_0_, this_.AddDate as AddDate6_0_, this_.IndexId as IndexId6_0_, this_.FloorCode as FloorCode6_0_, this_.TradingDate as Trading10_6_0_ FROM CSIDXInfor this_ WHERE this_.TradingDate = :p0] ---> System.Data.OracleClient.OracleException: ORA-00904: "THIS_"."TRADINGDATE": invalid identifier
+
+   at System.Data.OracleClient.OracleConnection.CheckError(OciErrorHandle errorHandle, Int32 rc)
+   at System.Data.OracleClient.OracleCommand.Execute(OciStatementHandle statementHandle, CommandBehavior behavior, Boolean needRowid, OciRowidDescriptor& rowidDescriptor, ArrayList& resultParameterOrdinals)
+   at System.Data.OracleClient.OracleCommand.Execute(OciStatementHandle statementHandle, CommandBehavior behavior, ArrayList& resultParameterOrdinals)
+   at System.Data.OracleClient.OracleCommand.ExecuteReader(CommandBehavior behavior)
+   at NHibernate.AdoNet.AbstractBatcher.ExecuteReader(IDbCommand cmd)
+   at NHibernate.Loader.Loader.GetResultSet(IDbCommand st, Boolean autoDiscoverTypes, Boolean callable, RowSelection selection, ISessionImplementor session)
+   at NHibernate.Loader.Loader.DoQuery(ISessionImplementor session, QueryParameters queryParameters, Boolean returnProxies)
+   at NHibernate.Loader.Loader.DoQueryAndInitializeNonLazyCollections(ISessionImplementor session, QueryParameters queryParameters, Boolean returnProxies)
+   at NHibernate.Loader.Loader.DoList(ISessionImplementor session, QueryParameters queryParameters)
+   --- End of inner exception stack trace ---
+   at NHibernate.Loader.Loader.DoList(ISessionImplementor session, QueryParameters queryParameters)
+   at NHibernate.Loader.Loader.ListIgnoreQueryCache(ISessionImplementor session, QueryParameters queryParameters)
+   at NHibernate.Impl.SessionImpl.List(CriteriaImpl criteria, IList results)
+   at NHibernate.Impl.CriteriaImpl.List(IList results)
+   at NHibernate.Impl.CriteriaImpl.List[T]()
+   at WebOnlineTrading.NHibernate.Repositories.CSIDXInfoRepository.GetAll()
+   at BusinessObjects.Supports.AppConst.Inventory_ReloadCSIDXInfor()
+2021-01-18 09:51:06,043 [11] ERROR NHibernate.AdoNet.AbstractBatcher - Could not execute query: SELECT this_.Id as Id4_0_, this_.Symbol as Symbol4_0_, this_.ConfirmNo as ConfirmNo4_0_, this_.MatchVol as MatchVol4_0_, this_.Price as Price4_0_, this_.MarketId as MarketId4_0_, this_.Time as Time4_0_, this_.IsActive as IsActive4_0_, this_.tradingdate as tradingd9_4_0_ FROM PTMatch this_ WHERE this_.tradingdate = :p0
+System.Data.OracleClient.OracleException (0x80131938): ORA-00904: "THIS_"."TIME": invalid identifier
+
+   at System.Data.OracleClient.OracleConnection.CheckError(OciErrorHandle errorHandle, Int32 rc)
+   at System.Data.OracleClient.OracleCommand.Execute(OciStatementHandle statementHandle, CommandBehavior behavior, Boolean needRowid, OciRowidDescriptor& rowidDescriptor, ArrayList& resultParameterOrdinals)
+   at System.Data.OracleClient.OracleCommand.Execute(OciStatementHandle statementHandle, CommandBehavior behavior, ArrayList& resultParameterOrdinals)
+   at System.Data.OracleClient.OracleCommand.ExecuteReader(CommandBehavior behavior)
+   at NHibernate.AdoNet.AbstractBatcher.ExecuteReader(IDbCommand cmd)
+2021-01-18 09:51:06,044 [11] ERROR NHibernate.Util.ADOExceptionReporter - ORA-00904: "THIS_"."TIME": invalid identifier
+
+2021-01-18 09:51:06,044 [11] ERROR NHibernate.Util.ADOExceptionReporter - ORA-00904: "THIS_"."TIME": invalid identifier
+
+2021-01-18 09:51:06,044 [11] ERROR NHibernate.Util.ADOExceptionReporter - ORA-00904: "THIS_"."TIME": invalid identifier
+
+2021-01-18 09:51:06,045 [11] ERROR BusinessObjects.Supports.AppConst - Inventory_ReloadPT
+NHibernate.Exceptions.GenericADOException: could not execute query
+[ SELECT this_.Id as Id4_0_, this_.Symbol as Symbol4_0_, this_.ConfirmNo as ConfirmNo4_0_, this_.MatchVol as MatchVol4_0_, this_.Price as Price4_0_, this_.MarketId as MarketId4_0_, this_.Time as Time4_0_, this_.IsActive as IsActive4_0_, this_.tradingdate as tradingd9_4_0_ FROM PTMatch this_ WHERE this_.tradingdate = :p0 ]
+  Name:cp0 - Value:18/01/2021
+[SQL: SELECT this_.Id as Id4_0_, this_.Symbol as Symbol4_0_, this_.ConfirmNo as ConfirmNo4_0_, this_.MatchVol as MatchVol4_0_, this_.Price as Price4_0_, this_.MarketId as MarketId4_0_, this_.Time as Time4_0_, this_.IsActive as IsActive4_0_, this_.tradingdate as tradingd9_4_0_ FROM PTMatch this_ WHERE this_.tradingdate = :p0] ---> System.Data.OracleClient.OracleException: ORA-00904: "THIS_"."TIME": invalid identifier
+
+   at System.Data.OracleClient.OracleConnection.CheckError(OciErrorHandle errorHandle, Int32 rc)
+   at System.Data.OracleClient.OracleCommand.Execute(OciStatementHandle statementHandle, CommandBehavior behavior, Boolean needRowid, OciRowidDescriptor& rowidDescriptor, ArrayList& resultParameterOrdinals)
+   at System.Data.OracleClient.OracleCommand.Execute(OciStatementHandle statementHandle, CommandBehavior behavior, ArrayList& resultParameterOrdinals)
+   at System.Data.OracleClient.OracleCommand.ExecuteReader(CommandBehavior behavior)
+   at NHibernate.AdoNet.AbstractBatcher.ExecuteReader(IDbCommand cmd)
+   at NHibernate.Loader.Loader.GetResultSet(IDbCommand st, Boolean autoDiscoverTypes, Boolean callable, RowSelection selection, ISessionImplementor session)
+   at NHibernate.Loader.Loader.DoQuery(ISessionImplementor session, QueryParameters queryParameters, Boolean returnProxies)
+   at NHibernate.Loader.Loader.DoQueryAndInitializeNonLazyCollections(ISessionImplementor session, QueryParameters queryParameters, Boolean returnProxies)
+   at NHibernate.Loader.Loader.DoList(ISessionImplementor session, QueryParameters queryParameters)
+   --- End of inner exception stack trace ---
+   at NHibernate.Loader.Loader.DoList(ISessionImplementor session, QueryParameters queryParameters)
+   at NHibernate.Loader.Loader.ListIgnoreQueryCache(ISessionImplementor session, QueryParameters queryParameters)
+   at NHibernate.Impl.SessionImpl.List(CriteriaImpl criteria, IList results)
+   at NHibernate.Impl.CriteriaImpl.List(IList results)
+   at NHibernate.Impl.CriteriaImpl.List[T]()
+   at BusinessObjects.Supports.AppConst.Inventory_ReloadPT()
